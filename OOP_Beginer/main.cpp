@@ -7,8 +7,13 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "HoSo.hpp"
+
+int main() {
+    HoSo x;
+    
+    x.Input();
+    x.Output();
+    
     return 0;
 }
